@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerjemah Abjad ke Miaw dan Sebaliknya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Penerjemah Abjad ke Miaw dan Sebaliknya</h1>
+    </header>
+    <main>
+        <div class="container">
+            <section class="section">
+                <h2>Penerjemah Abjad ke Miaw</h2>
+                <textarea id="textToTranslate" placeholder="Masukkan teks di sini..."></textarea>
+                <button onclick="translateToMiaw()">Terjemahkan ke Miaw</button>
+                <div class="result" id="miawResult"></div>
+            </section>
+
+            <section class="section">
+                <h2>Penerjemah Miaw ke Abjad</h2>
+                <textarea id="miawText" placeholder="Masukkan teks Miaw di sini..."></textarea>
+                <button onclick="translateToAbjad()">Terjemahkan ke Abjad</button>
+                <div class="result" id="abjadResult"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Penerjemah Abjad ke Miaw. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
